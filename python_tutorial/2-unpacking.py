@@ -7,13 +7,13 @@ def func1():
 
 def func2():
     # starred expression
-    a, b, *c = [1, 2, 3, 4, 5, 6, 7] 
+    a, b, *c = [1, 2, 3, 4, 5, 6, 7]
     print("a", a)
     print("b", b)
     print("c", c)
 
 def func3():
-    a, *b, c = [1, 2, 3, 4, 5, 6, 7] 
+    a, *b, c = [1, 2, 3, 4, 5, 6, 7]
     print("a", a)
     print("b", b)
     print("c", c)
